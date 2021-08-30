@@ -27,7 +27,7 @@ import scipy.sparse as scs
 import scipy.linalg as scl 
 import scipy.optimize as sco
 
-"""Reference: https://www.kaggle.com/gaz3ll3/sudoku-challenge-example-1"""
+"""Reference: https://www.kaggle.com/gaz3ll3/simple-lp-solver-for-sudoku-success-rate-0-32"""
 
 def integer_constraints(N=9):
     #For each row, sum of x_(ijk) from j = 1 to 9 is 1, while 1<=i,k<=9. 
