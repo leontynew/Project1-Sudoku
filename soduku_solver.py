@@ -124,7 +124,6 @@ for i in range(len(samples)):
                       - np.reshape([int(c) for c in solu], (9,9)), np.inf) >0:
         pass
     else:
-        #print("CORRECT")
         corr_cnt += 1
 
     if (i+1) % 20 == 0:
