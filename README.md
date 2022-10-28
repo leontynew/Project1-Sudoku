@@ -1,6 +1,8 @@
 # Project1-Sudoku
 Luyang Wang
 
+This project information can be found in [Colab](https://colab.research.google.com/drive/1aPH1a7i381R9buEiw2XrJm3ysh9VXebD)
+
 In this project, I consider the constrained optimization problem for Sudoku with the following integer constraints. 
 Let x_{ijk} indicate the event that the (i, j) element of the Sudoku grid contains k. If it is true, x_{ijk}=1, otherwise x_{ijk} = 0.  Then the constraints are 
 
@@ -17,5 +19,6 @@ Since integer optimization is usually Np-hard, I can relax the problem a little 
 In this case, we can demonstrate the LP for the Sudoku problem. min_{X}||X||_L, subject to equality constraint AX = B. 
 
 The code of Soduku solver is inspired by the reference. 
+
 Reference:
 https://www.kaggle.com/gaz3ll3/simple-lp-solver-for-sudoku-success-rate-0-32
