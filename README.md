@@ -1,7 +1,7 @@
 # Project1-Sudoku
 Luyang Wang
 
-This project information can be found in [Colab](https://colab.research.google.com/drive/1aPH1a7i381R9buEiw2XrJm3ysh9VXebD)
+This project information can be found in [Colab](https://colab.research.google.com/drive/1RNR3bkramHc2iVacBwHDR13IW78k7fWs)
 
 In this project, I consider the constrained optimization problem for Sudoku with the following integer constraints. 
 Let x_{ijk} indicate the event that the (i, j) element of the Sudoku grid contains k. If it is true, x_{ijk}=1, otherwise x_{ijk} = 0.  Then the constraints are 
