@@ -1,5 +1,6 @@
 # Project1-Sudoku
 Luyang Wang.
+
 In this project, I consider the constrained optimization problem for Sudoku with the following integer constraints. 
 Let x_{ijk} indicate the event that the (i, j) element of the Sudoku grid contains k. If it is true, x_{ijk}=1, otherwise x_{ijk} = 0.  Then the constraints are 
 
